@@ -1,0 +1,20 @@
+{
+  "name": "noxmodskin-support-telegram-bot",
+  "module": "./src/index.ts",
+  "main": "./src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "scripts": {
+    "start": "bun run --watch ./src/index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.64.3",
+    "node-telegram-bot-api": "^0.65.1",
+    "prettier": "^3.2.5"
+  }
+}
